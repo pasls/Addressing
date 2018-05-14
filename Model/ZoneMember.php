@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Sylius\Component\Addressing\Model;
 
-class ZoneMember implements ZoneMemberInterface
+abstract class ZoneMember implements ZoneMemberInterface
 {
     /**
      * @var mixed
